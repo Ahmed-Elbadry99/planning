@@ -1,0 +1,338 @@
+body {
+    text-align: right;
+    direction: rtl;
+}
+
+
+
+.p-about ul li::after {
+ right: 0;
+
+}
+
+.p-about ul li {
+ padding-right: 30px;
+}
+
+
+
+
+
+
+.img-about::after {
+ left: 10%;
+}
+
+.img-about::before {
+ 
+ left: 0%;
+}
+
+.img-about img {
+ margin-right: 20%;
+}
+
+
+
+.our-programs::after {
+ right: 0;
+
+}
+
+
+.our-programs .col-lg-6 {
+ padding-left: 7px;
+ padding-right: 7px;
+}
+
+
+
+.owl-nav button::before {
+
+
+ border-right: 2px solid #87bd41;
+ right: 2px;
+}
+
+.owl-nav button::after {
+ right: 0;
+ transform: translateY(-50%);
+}
+
+
+.owl-nav button:hover::before {
+ border-right: 2px solid #297fb6;
+}
+
+
+.contact-us::after {
+ left: 0;
+}
+
+
+.sub-contact-us::after {
+ right: 0;
+
+}
+
+.subscribe::after {
+ right: 10%;
+}
+
+
+.input-subscribe img {
+ right: 15px;
+}
+
+
+.form-row .col-auto img {
+
+ right: 19px;
+}
+
+.btn-subscribe {
+ left: 14%;
+}
+
+
+
+.sub-header-pages {
+ margin-left: auto;
+}
+
+
+.sub-header::after {
+ right: 0;
+}
+
+
+.rate-us .col-lg-3 {
+ padding-left: 7px;
+ padding-right: 7px;
+}
+
+
+/* srart style page ceo =============
+===========  */
+
+
+
+.sub-members::after {
+
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+.sub-members::before {
+ left: 0;
+ right: 0;
+ bottom: 0;
+}
+
+
+.sub-paths::after {
+ right: 25px;
+}
+
+.sub-paths:hover::after {
+ right: 0;
+}
+
+
+.text-detalis-paths ul li::after {
+ right: 0;
+}
+
+
+.tiping-blog ul li {
+ padding-right: 15px;
+}
+
+.tiping-blog ul li::after {
+ right: 0;
+}
+
+/*============ start style forms========= */
+
+.arrow-select::after {
+ left: 22px;
+}
+
+.input-check label::after {
+ right: 0;
+}
+
+.input-check input:checked ~ label::before {
+ right: 0;
+}
+
+
+/* start style loding================ */
+
+.loading:before {
+ right: -.6em;
+ bottom: -.6em;
+ left: -.6em;
+}
+
+.loading:after {
+ right: .3em;
+ bottom: .3em;
+ left: .3em;
+}
+
+
+
+.menu {
+   left: 52px;
+   transform: translate(-50%, -50%);
+}
+
+
+.hambergerIcon {
+   left: 50%;
+   transform: translate(-50%, -50%) rotate(0deg);
+}
+
+
+.hambergerIcon::before {
+   left: 0px;
+   transform-origin: left center;
+}
+
+.hambergerIcon::after {
+   right: 0px;
+   transform-origin: right center;
+}
+
+.open {
+   transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.open::before {
+   transform: translateX(100%) rotate(-90deg);
+}
+
+.open::after {
+   bottom: 0;
+   transform: translateX(-100%) rotate(-90deg);
+}
+
+
+.bg-div-mune {
+   transform: translateX(-100%);
+   right: 0;
+}
+
+
+.element>ul>li>a::after {
+   right: 0;
+}
+
+
+.sub-header::after {
+   right: 0;
+}
+
+
+
+
+.sub-about-header::after {
+   right: 0;
+   left: 0;
+}
+
+
+
+.about-header .col-lg-3 {
+   padding-left: 7px;
+   padding-right: 7px;
+}
+
+
+.element-footer h2::after,
+.contect-footer h2::after {
+ right: 0;
+
+}
+
+.element-footer h2::before,
+.contect-footer h2::before {
+ right: 44px;
+}
+
+
+.element-footer ul li a::after {
+ right: 0;
+}
+
+
+.c-scrollbar {
+ right: 0;
+}
+
+.c-scrollbar_thumb {
+ top: 0;
+ right: 0;
+
+}
+
+.c-scrollbar {
+ right: 0;
+}
+
+.c-scrollbar_thumb {
+ right: 0;
+}
+
+
+@media (max-width: 992px) {
+
+ .btn-subscribe {
+   left: 1%;
+ }
+
+ .subscribe::after {
+   right: 0%;
+ }
+
+ .icon-menu {
+   left: 3%;
+ }
+
+
+ .element {
+   right: 0;
+ }
+
+}
+
+
+@media (max-width: 576px) {
+
+ .img-about img {
+   margin-right: 12%;
+ }
+
+
+ .img-about img {
+   margin-right: 13%;
+ }
+
+ .img-about::before {
+   left: 0%;
+ }
+
+ .img-about::after {
+   left: 10%;
+ }
+
+ .contact-us::after {
+   left: 0;
+}
+
+}
+
+
+

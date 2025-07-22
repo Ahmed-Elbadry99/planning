@@ -1,0 +1,570 @@
+.btn-action1{
+
+    width: fit-content;
+    height: 45px;
+    width: 200px;
+    padding: 0 20px;
+    background-color: #297fb6;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    border:  1px solid transparent;
+
+}
+
+
+.btn-action1:hover{
+    
+    color: #297fb6;
+    background-color: white;
+    border: 1px solid #297fb6;
+    
+    
+}
+
+.btn-action2{
+
+    width: fit-content;
+    height: 45px;
+    width: 200px;
+    padding: 0 20px;
+   
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    
+    color: #297fb6;
+    background-color: white;
+    border: 1px solid #297fb6;
+
+}
+
+
+.btn-action2:hover{
+    
+    background-color: #297fb6;
+    color: white;
+    border:  1px solid transparent;
+
+    
+    
+}
+.about-membership{
+    margin: 150px 0;
+}
+
+
+.about-membership-text h2{
+    font-size: 24px;
+    font-family: "font_SemiBold";
+    color: #297fb6;
+}
+
+.membership-text-item{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-membership-text{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.membership-text-item p{
+    line-height: 30px;
+    color: #4D4D4D;
+    font-family: "font_medium";
+    font-size: 18px;
+}
+
+
+.membership-text-item ul{
+    columns: 2; /* عدد الأعمدة */
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside; /* جعل التعداد داخل العمود */
+    margin: 0;  
+}
+
+.membership-text-item ul li{
+    padding-bottom: 10px;
+    list-style: none;
+    color: #4D4D4D;
+    font-family: "font_medium";
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+}
+
+.membership-text-item a{
+    width: fit-content;
+    height: 45px;
+    width: 200px;
+    padding: 0 20px;
+    background-color: #297fb6;
+    color: white;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    border:  1px solid transparent;
+
+}
+
+.membership-text-item a:hover{
+    color: #297fb6;
+    background-color: white;
+    border: 1px solid #297fb6;
+}
+
+.membership-img-container{
+    width: 400px;
+    height: 450px;
+    padding: 10px;
+    border-radius: 32px;
+    overflow: hidden;
+    box-shadow: -30px 0px 25px  rgb(236, 253, 213), 0 4px 44.4px rgba(42, 55, 25, 0.13);
+
+}
+
+.membership-img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 32px;
+
+}
+
+.medal{
+    position: absolute;
+    top: -100px;
+    left: 30px;
+}
+
+.Types-memberships{
+    padding: 50px 0;
+}
+.Type-membership-card {
+    background-color: rgba(41, 127, 182, 0.1);
+    color: #297fb6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px 10px ;
+    border-radius: 15px;
+    transition: all 0.5s ease-in-out;
+
+}
+
+.Type-membership-card:hover{
+
+    box-shadow:  0 4px 44.4px rgba(42, 55, 25, 0.13);
+    transform: translateY(-10px);
+}
+
+.Type-card-header h2,
+.Type-card-header p{
+    font-size: 24px;
+    font-family: "font_SemiBold";
+    color: #297fb6;
+}
+
+.Type-membership-card .price{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Type-membership-card .price-title{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px ;
+    border-radius: 60px;
+    background-color: rgba(41, 127, 182, 0.12);
+}
+.Type-membership-card .price-title span{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: black;
+    font-size: 18px;
+    font-family: "font_SemiBold";
+}
+
+.Type-membership-card .price-title span p{
+    color: black;
+    font-size: 20px;
+    font-family: "font_SemiBold";
+}
+.Type-membership-card .price p{
+    color: black;
+    font-size: 28px;
+    font-family: "font_SemiBold";
+    line-height: 1;
+
+}
+
+.Type-membership-card .price a{
+    width: 90%;
+    height: 45px;
+    color: white;
+    background-color: #297fb6;
+    text-align: center;
+    align-content: center;
+    border-radius: 5px;
+    border:1px solid transparent
+}
+
+.Type-membership-card .price a:hover{
+    
+    border: 1px solid #297fb6;
+    color: #297fb6;
+    background-color: transparent;
+
+}
+
+
+.Type-membership-card  .features{
+    text-align: center;
+    padding: 10px 5px;
+   
+
+}
+
+.Type-membership-card  .features h3{
+    color: black;
+    font-size: 20px;
+    font-family: "font_bold";
+    margin-bottom: 15px;
+    text-align: start;
+    
+
+}
+
+.Type-membership-card  .features ul {
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    color: black;
+    font-size: 16px;
+    font-family: "font_SemiBold";
+    margin: 0 5px 0 0;
+    margin-bottom: 10px;
+
+}
+
+.Type-membership-card  .features ul li{
+    list-style: none;
+    display: flex; 
+    gap: 10px;
+
+
+}
+
+.Type-membership-card  .features a{
+    text-align: center;
+    font-family: "font_bold";
+    color: #297fb6;
+    border-bottom:1px solid #297fb6;
+    text-align: center;
+
+}
+
+
+.Type-membership-card  .features a:hover{
+    color: black;
+    border-bottom:1px solid black;
+
+}
+
+
+
+
+
+/* comman questions */
+
+.question-section {
+    margin-bottom: 75px;
+  }
+  .common-questions-head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    gap: 10px;
+  }
+  
+  .questions-head {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .common-questions-head a {
+    color: var(--secondary-color);
+    font-size: 16px;
+    font-family: "Bold", sans-serif;
+  }
+  
+  .common-questions-head a:hover {
+    color: var(--primary-color);
+    transition: all 0.3s ease;
+  }
+  .common-questions-head h1 {
+    color: var(--primary-color);
+    font-family: "Bold", sans-serif;
+  }
+  .common-questions-head h1 span {
+    color: var(--secondary-color);
+  }
+  
+  .common-questions-head a {
+    color: var(--secondary-color);
+    transition: 0.4s ease;
+  }
+  
+  .common-questions-head a:hover {
+    color: var(--primary-color);
+  }
+  
+  .questions-common-conatiner .accordion-item {
+    border: none;
+    border-bottom: 1px solid #a3a3a37d;
+  }
+  
+  .questions-common-conatiner .accordion-button::after {
+    color: var(--primary1);
+    position: absolute;
+    left: 20px;
+  }
+  
+  .questions-common-conatiner .accordion-button:not(.collapsed)::after {
+    color: #ff6f3c;
+    position: absolute;
+    left: 20px;
+  }
+  
+  .questions-common-conatiner .accordion-button:not(.collapsed) {
+    background: rgba(199, 233, 244, 1);
+    box-shadow: none;
+  }
+  
+  .questions-common-conatiner .accordion-body {
+    background: rgba(199, 233, 244, 1);
+    color: rgba(102, 102, 102, 1);
+  }
+  
+  .accordion-item:last-of-type > .accordion-header .accordion-button.collapsed {
+    border-radius: 0;
+  }
+  
+  .accordion-button {
+    color: rgba(18, 18, 18, 1);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-family: "Bold", sans-serif;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: rgba(18, 18, 18, 1);
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-button {
+    text-align: right !important;
+  }
+
+  
+
+  /*  */
+
+  .questions .card{
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, .125) !important;
+  }
+
+  .questions .card-header {
+    cursor: pointer;
+    background-color: transparent; 
+    border: none;
+  }
+  
+  .card-header .arrow {
+    transition: transform 0.3s ease;
+  }
+  
+  /* عند الفتح، لف السهم */
+  .card-header[aria-expanded="true"] .arrow {
+    transform: rotate(180deg);
+  }
+
+
+  .questions .card-header h5{
+    font-size: 20px;
+    font-family: "font_bold";
+  }
+  
+  .questions  ul{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .questions  li{
+    font-size: 16px;
+    font-family: "font_SemiBold";
+  }
+
+
+
+  /* membership-details */
+
+
+  .membership-details{
+    margin: 100px 0;
+  }
+
+  .membership-details .main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px ;}
+
+  .page-section-title{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+    font-family: "font_SemiBold";
+  }
+
+
+  .mb-details-header{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+
+  .mb-details-header .item{
+    display: flex;
+    flex-direction: column;
+    padding: 20px ;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    position: relative;
+
+  }
+
+  .mb-details-header .item::after{
+    position: absolute;
+    content: "";
+    width: 1.5px;
+    height: 40%;
+    left: 0px;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #8A8A8A;
+  }
+
+  .mb-details-header .item:first-child{
+    align-items: start;
+  }
+
+
+  .mb-details-header .item:last-child::after{
+    border: none;
+    content: none;
+  }
+
+
+  .mb-details-header .item h4{
+    color: #8A8A8A;
+    font-size: 20;
+  }
+
+
+  .mb-details-header .item p{
+    color: black;
+    font-size: 18;
+    font-family: "font_bold";
+  }
+
+  .mb-details-header .item.price .price-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #87BD41;
+
+  }
+
+  .mb-details-header .item.price .price-title p,
+  .mb-details-header .item.price .price-title span{
+    color: #87BD41;
+    font-family: "font_bold";
+  }
+
+
+
+  .mb-details-body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .mb-details-body p{
+    font-size: 22px;
+    font-family: "font_bold";
+  }
+
+
+  .mb-details-body ul{
+
+    margin: 0 20px;
+    gap: 15px;
+    list-style: none;
+    columns: 2; /* عدد الأعمدة */
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside; /* جعل التعداد داخل العمود */
+
+
+  }
+
+  .mb-details-body li{
+    font-size: 16px;
+    font-family: "font_SemiBold";
+    margin-bottom: 15px;
+  }
+
+
+  .mb-details-actions{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+
+ 
+  
+/* profile-details */
+
+.profile-details{
+    margin: 100px 0;
+}
+
+
+.profile-details-header{
+    display: flex;
+    justify-content: space-between;
+}
