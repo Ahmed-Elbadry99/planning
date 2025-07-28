@@ -275,6 +275,43 @@
 }
 
 @media (max-width: 768px) {
+
+
+  .title-center p {
+    width: 100%;
+  }
+  .pg-section {
+    padding: 40px 0;
+  }
+
+  .ctm-btn {
+    font-size: 13px;
+  }
+
+  .title-start h2 {
+    font-family: "font_SemiBold";
+    font-size: 20px;
+    margin: 25px 0 15px;
+  }
+  .sub-services-new h2 {
+    font-size: 17px;
+  }
+
+  .sub-services-new {
+    padding: 35px;
+    min-height: 190px;
+  }
+
+  .sub-utilization {
+    flex-wrap: wrap;
+  }
+
+  .main-utilization {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
     .text-pages {
         height: auto;
     }
@@ -298,7 +335,91 @@
     font-size: 19px;
     line-height: 33px;
   }
+
+
+
+  /*  */
+
+
+
+.profile-details-header .user-info p{
+font-size: 20px;
+font-family: "font_SemiBold";
 }
+
+.profile-details-header .user-info span{
+font-size: 18px;
+color: #797979;
+}
+
+.profile-details .accordion{
+margin-bottom: 30px;
+}
+
+
+.profile-user-info img {
+  height: 90px;
+  width: 75px;
+}
+
+
+
+.profile-user-info .profile-info-items .item:nth-child(2):after{
+  content: none;
+}
+
+.profile-details .accordion .card-header h5{
+  font-size: 18px;
+}
+
+.profile-info-header .header-actions a{
+  font-size: 14px;
+}
+
+.header-details .img-container, .card-header .img-container{
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+}
+
+.profile-info-items{
+  gap: 5px;
+  row-gap: 10px;
+}
+.profile-info-items .item{
+  padding: 0 20px 0 30px;
+
+}
+
+.btn-action2,
+.btn-action1{
+  width: fit-content;
+  font-size: 16px;
+}
+
+.profile-details .accordion .results ul{
+  column-gap: 40px;
+}
+
+.profile-details .accordion .results ul li p{
+  font-size: 16px;
+}
+
+.profile-details .accordion .results ul li span{
+  font-size: 18px;
+}
+
+.profile-details .accordion .courses .card-body p{
+  font-size: 18px;
+}
+
+.profile-details .courses .course-details .date p{
+  
+  font-size: 16px;
+  
+}
+}
+
 
 @media (max-width: 576px) {
   div#map {
@@ -512,5 +633,57 @@ justify-content: start;
         padding: 5px 0;
         font-size: 13px;
     }
+
+}
+
+
+@media (max-width : 475px){
+
+
+  .profile-details-header .user-info .img-container{
+    width: 80px;
+    height: 80px ;
+  }
+  
+
+.profile-details-header .user-info p{
+  font-size: 18px;
+  font-family: "font_SemiBold";
+  }
+  
+  .profile-details-header .user-info span{
+  font-size: 16px;
+  color: #797979;
+  }
+  
+  .profile-user-info img {
+    height: 8%;
+    width: 65px;
+  }
+  
+  
+  .profile-details .accordion .card-header h5{
+    font-size: 16px;
+  }
+  
+  .profile-details .accordion .results ul li p{
+    font-size: 14px;
+  }
+  
+  .profile-details .accordion .results ul li span{
+    font-size: 16px;
+  }
+
+  .profile-info-items .item span {
+    font-size: 16px;
+  }
+
+
+
+  .profile-details .accordion .courses .card-body p{
+    font-size: 16px;
+  }
+
+
 
 }

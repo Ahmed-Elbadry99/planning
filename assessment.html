@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اختبار قدراتك الابتكارية</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/ar.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #ffffff;
+            color: #333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .assessment-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 60px 40px;
+        }
+        
+        .assessment-header {
+            text-align: center;
+            margin-bottom: 80px;
+        }
+        
+        .assessment-header h1 {
+            font-size: 2.8rem;
+            font-weight: bold;
+            color: #297fb6;
+            margin-bottom: 25px;
+        }
+        
+        .assessment-header p {
+            font-size: 1.2rem;
+            color: #555;
+            max-width: 700px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+        
+        .assessment-content {
+            display: flex;
+            gap: 80px;
+            align-items: flex-start;
+        }
+        
+        .scales-section {
+            flex: 1;
+            background-color: #f8f9fa;
+            border-radius: 12px;
+            padding: 35px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        
+        .scales-section h2 {
+            font-size: 1.6rem;
+            font-weight: bold;
+            color: #297fb6;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .scales-table {
+            width: 100%;
+            border-collapse: collapse;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .scales-table th {
+            background-color: #297fb6;
+            color: white;
+            padding: 18px 15px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.1rem;
+        }
+        
+        .scales-table td {
+            padding: 18px 15px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+            font-size: 1rem;
+        }
+        
+        .scales-table tr:nth-child(even) {
+            background-color: #f1f3f4;
+        }
+        
+        .scales-table tr:last-child td {
+            border-bottom: none;
+        }
+        
+        .buttons-section {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
+            align-items: center;
+            justify-content: center;
+            padding-top: 20px;
+        }
+        
+        .start-button {
+            background-color: #297fb6;
+            color: white;
+            border: none;
+            padding: 18px 35px;
+            border-radius: 10px;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 220px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            box-shadow: 0 3px 10px rgba(41, 127, 182, 0.2);
+        }
+        
+        .start-button:hover {
+            background-color: #1e5f8a;
+            color: white;
+            text-decoration: none;
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(41, 127, 182, 0.4);
+        }
+        
+        @media (max-width: 768px) {
+            .assessment-content {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .assessment-header h1 {
+                font-size: 2.2rem;
+            }
+            
+            .scales-section {
+                padding: 25px;
+            }
+            
+            .assessment-container {
+                padding: 40px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="assessment-container">
+        <div class="assessment-header">
+            <h1>اختبر قدراتك الابتكارية</h1>
+            <p>أجب عن مجموعة من الأسئلة التفاعلية لتقييم سماتك الابتكارية واحصل على تقرير مبسط يساعدك على فهم نقاط قوتك وفرص تطويرك</p>
+        </div>
+        
+        <div class="assessment-content">
+            <div class="scales-section">
+                <h2>المقاييس المتاحة</h2>
+                <table class="scales-table">
+                    <thead>
+                        <tr>
+                            <th>اسم المقياس</th>
+                            <th>المدة</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>مقياس التفكير الإبداعي</td>
+                            <td>10 دقائق</td>
+                        </tr>
+                        <tr>
+                            <td>مقياس التفكير الإبداعي</td>
+                            <td>10 دقائق</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+            <div class="buttons-section">
+                <a href="#" class="start-button">ابدأ المقياس الآن</a>
+                <a href="#" class="start-button">ابدأ المقياس الآن</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html> 
