@@ -521,6 +521,17 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 20px;
+  position: relative;
+  padding: 15px 0;
+}
+
+.profile-details-header::after {
+  width: 100%;
+  height: 1px;
+  content: "";
+  background-color: rgba(162, 162, 162, 0.51);
+  position: absolute;
+  bottom: 0;
 }
 
 .profile-details-header .user-info {
@@ -562,6 +573,12 @@
 .profile-details .accordion .card-body {
   border-radius: 15px;
   padding: 15px;
+}
+
+.scales-item ul,
+.profile-details .accordion .card-body.results ul {
+  display: flex;
+  gap: 20px;
 }
 
 .profile-user-info {
@@ -619,6 +636,13 @@
   font-family: "font_SemiBold";
 }
 
+.profile-info-items .item span.light {
+  color: #bfff6c;
+}
+
+#certificateInput {
+  display: none;
+}
 .profile-info-header {
   display: flex;
   justify-content: space-between;
@@ -689,6 +713,7 @@
   gap: 15px;
 }
 
+.scales-item ,
 .profile-details .accordion .courses .card-body,
 .profile-details .accordion .results .card-body {
   display: flex;
@@ -743,6 +768,7 @@
   row-gap: 15px;
 }
 
+.scales-item ul li,
 .profile-details .accordion .results ul li {
   position: relative;
   padding: 10px 25px;
@@ -751,6 +777,8 @@
   gap: 10px;
 }
 
+
+.scales-item ul li::after,
 .profile-details .accordion .results ul li::after {
   position: absolute;
   content: "";
@@ -762,16 +790,20 @@
   background-color: #8a8a8a;
 }
 
+
+.scales-item ul li:first-child::after ,
 .profile-details .accordion .results ul li:first-child::after {
   border: none;
   content: none;
 }
 
+.scales-item ul li p ,
 .profile-details .accordion .results ul li p {
   font-size: 18px;
   color: #797979;
 }
 
+.scales-item ul li span,
 .profile-details .accordion .results ul li span {
   font-size: 20px;
 }
@@ -783,6 +815,33 @@
 .profile-details .accordion .results.invite .card-body {
   background-color: rgba(41, 127, 182, 0.13);
   padding: 60px 25px;
+}
+
+.volunteer-request .main-container .avatar-container{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.volunteer-request .img-container {
+  position: relative;
+  text-align: center;
+  margin-bottom: 40px;
+  width: fit-content;
+}
+
+.upload-img {
+  width: 30px;
+  height: 30px;
+  align-content: center;
+  text-align: center;
+  background-color: #297fb6;
+  cursor: pointer;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -15px;
+  left : 5%;
 }
 
 /* auth_pages */
@@ -864,6 +923,13 @@
   color: #353738;
   margin-top: 5px;
 }
+
+.btn-form {
+  display: flex;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
 /* login */
 
 .forget-link {
@@ -875,16 +941,15 @@
   font-weight: 600;
 }
 
-.form-section .done{
+.form-section .done {
   width: 55%;
   text-align: center;
-
 }
-.form-section .done img{
+.form-section .done img {
   padding: 15px;
 }
 
-.form-section .done p{
+.form-section .done p {
   font-size: 22px;
   font-weight: 600;
   margin-top: 10px;
@@ -936,6 +1001,17 @@
   object-fit: contain;
 }
 
+
+
+/* requset-container */
+
+.requset-container.session p {
+
+  font-size: 18px;
+  font-weight: 600;
+
+}
+
 /* start style by me gomaa  :> =======-
 ========================= */
 
@@ -981,6 +1057,11 @@
   background-color: #297fb614;
 }
 
+.form-label {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8a8a8a;
+}
 input[type="tel"] {
   direction: ltr;
   text-align: right;
@@ -1010,7 +1091,7 @@ select {
 .ctm-btn {
   background-color: #297fb6;
   color: #fff;
-  border: none;
+  border: 1px solid transparent;
   padding: 10px 35px;
   border-radius: 5px;
   min-width: 170px;
@@ -1025,6 +1106,26 @@ select {
   color: #297fb6;
   border: 1px solid #297fb6;
   transition: all 0.3s linear;
+}
+
+.ctm-btn1 {
+  background-color: #fff;
+  color: #297fb6;
+  border: 1px solid #297fb6;
+  padding: 10px 35px;
+  border-radius: 5px;
+  min-width: 170px;
+  height: 55px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "font_bold";
+  transition: all 0.3s linear;
+  display: inline-block;
+}
+
+.ctm-btn1:hover {
+  background-color: #297fb6;
+  color: #fff;
 }
 
 /* Voting Innovations Page Styles */
@@ -1398,11 +1499,10 @@ select {
 }
 
 .scales-section {
-  flex: 1;
-  background-color: #f8f9fa;
-  border-radius: 10px;
+  width: 100%;
+  
+
   padding: 30px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .scales-section h2 {

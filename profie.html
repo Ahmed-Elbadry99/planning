@@ -80,21 +80,21 @@
 
     <link rel="stylesheet" href="./css/main.css" />
 
-    <link rel="stylesheet" href="/css/responsive.css"">
-    <link rel="stylesheet" href="/css/ar.css" />
+    <link rel="stylesheet" href="./css/responsive.css" />
+    <link rel="stylesheet" href="./css/ar.css" />
   </head>
 
   <body>
     <main id="app">
       <!--  -->
 
-      <!-- questions -->
+      <!-- profile-details -->
       <section class="profile-details">
         <div class="main-container">
           <div class="profile-details-header">
             <div class="user-info">
               <div class="img-container">
-                <img src="" alt="" />
+                <img src="./images/avatar.svg" alt="" />
               </div>
               <div class="info-details">
                 <p>محمد احمد</p>
@@ -103,46 +103,106 @@
             </div>
             <a href="" class="btn-action1"> تعديل </a>
           </div>
+          <div class="profile-user-info">
+            <div class="profile-info-header">
+              <div class="header-details">
+                <div class="img-container">
+                  <img src="./images/member.svg" alt="" />
+                </div>
+                <p>العضوية</p>
+              </div>
+              <div class="header-actions">
+                <a href="" class="btn-action2"> تفاصيل العضوية </a>
+                <a href="" class="btn-action1"> تجديد العضوية </a>
+              </div>
+            </div>
+            <div class="profile-info-items">
+              <img src="./images/Frame-logo.png" alt="" />
+              <div class="item">
+                <p>اسم العضو</p>
+                <span>محمد احمد</span>
+              </div>
+              <!--  -->
+              <div class="item">
+                <p>اسم العضوية</p>
+                <span>مبتكر شرفى</span>
+              </div>
+              <!--  -->
+              <div class="item">
+                <p>نوع العضوية</p>
+                <span>Vip</span>
+              </div>
+              <!--  -->
+              <div class="item">
+                <p>رقم العضوية</p>
+                <span>(أ)</span>
+              </div>
+              <!--  -->
+              <div class="item">
+                <p>المتبقى</p>
+                <span>3 شهور</span>
+              </div>
+              <!--  -->
+              <div class="item">
+                <p>حالة العضوية</p>
+                <span class="light">سارية</span>
+              </div>
+            </div>
+          </div>
           <div id="membershipAccordion" class="accordion">
-            <div class="card">
+            <div class="card personal-info">
               <div
                 class="card-header"
                 id="headingOne"
                 data-toggle="collapse"
                 data-target="#collapseOne"
-                aria-expanded="true"
+                aria-expanded="false"
                 aria-controls="collapseOne"
               >
                 <h5
                   class="mb-0 d-flex justify-content-between align-items-center"
                 >
-                  شروط الحصول على العضوية
-                  <i class="fa fa-caret-down arrow"></i>
+                  <div class="img-container">
+                    <img src="./images/id.svg" alt="" />
+                  </div>
+                  البيانات الشخصية
                 </h5>
+                <i class="fa fa-caret-down arrow"></i>
               </div>
               <div
                 id="collapseOne"
-                class="collapse show"
+                class="collapse"
                 aria-labelledby="headingOne"
                 data-parent="#membershipAccordion"
               >
                 <div class="card-body">
-                  <ul>
-                    <li>سداد رسوم العضوية حسب النوع المختار.</li>
-                    <li>
-                      رفع الوثائق المطلوبة (مثل الهوية الوطنية، إثبات
-                      الطالب...).
-                    </li>
-                    <li>
-                      أن يكون المتقدم مهتمًا بمجالات الجمعية (الابتكار، التخطيط،
-                      التنمية).
-                    </li>
-                  </ul>
+                  <div class="profile-info-items">
+                    <div class="item">
+                      <p>الجوال</p>
+                      <span>015123456789</span>
+                    </div>
+                    <!--  -->
+                    <div class="item">
+                      <p>رقم الهوية</p>
+                      <span>56789</span>
+                    </div>
+
+                    <!--  -->
+                    <div class="item">
+                      <p>المؤهل</p>
+                      <span>طالب</span>
+                    </div>
+                    <!--  -->
+                    <div class="item">
+                      <p>العنوان</p>
+                      <span>شارع قناة السويس</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card courses">
               <div
                 class="card-header"
                 id="headingTwo"
@@ -154,9 +214,12 @@
                 <h5
                   class="mb-0 d-flex justify-content-between align-items-center"
                 >
-                  حقوق الأعضاء
-                  <i class="fa fa-caret-down arrow"></i>
+                  <div class="img-container">
+                    <img src="./images/course.svg" alt="" />
+                  </div>
+                  الدورات
                 </h5>
+                <i class="fa fa-caret-down arrow"></i>
               </div>
               <div
                 id="collapseTwo"
@@ -165,12 +228,27 @@
                 data-parent="#membershipAccordion"
               >
                 <div class="card-body">
-                  <!-- أضف المحتوى هنا -->
+                  <div class="course-info">
+                    <div class="img-container">
+                      <img src="./images/profile-img.png" alt="" />
+                    </div>
+                    <div class="course-details">
+                      <p>دورة التدريب والتأهيل النوعى</p>
+                      <div class="date">
+                        <img src="./images/clarity_date-line.svg" alt="" />
+                        <p>1/1/2023</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="course-actions">
+                    <a href="" class="btn-action1"> عرض شهادة الدورة </a>
+                  </div>
                 </div>
               </div>
             </div>
 
-            <div class="card">
+            <div class="card courses">
               <div
                 class="card-header"
                 id="headingThree"
@@ -182,9 +260,12 @@
                 <h5
                   class="mb-0 d-flex justify-content-between align-items-center"
                 >
-                  واجبات الأعضاء
-                  <i class="fa fa-caret-down arrow"></i>
+                  <div class="img-container">
+                    <img src="./images/degree.svg" alt="" />
+                  </div>
+                  الشهادات
                 </h5>
+                <i class="fa fa-caret-down arrow"></i>
               </div>
               <div
                 id="collapseThree"
@@ -193,12 +274,40 @@
                 data-parent="#membershipAccordion"
               >
                 <div class="card-body">
-                  <!-- أضف المحتوى هنا -->
+                  <div class="course-info">
+                    <div class="img-container">
+                      <img src="./images/profile-img.png" alt="" />
+                    </div>
+                    <div class="course-details">
+                      <p>دورة التدريب والتأهيل النوعى</p>
+                      <div class="date">
+                        <img src="./images/clarity_date-line.svg" alt="" />
+                        <p>1/1/2023</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!--  -->
+                  <div class="course-actions">
+                    <label
+                      for="certificateInput"
+                      class="upload-btn btn-action1"
+                    >
+                      تحميل الشهادة
+                    </label>
+
+                    <!-- عنصر اختيار الملف -->
+                    <input
+                      type="file"
+                      id="certificateInput"
+                      name="certificate"
+                      accept=".pdf,.jpg,.png"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div class="card">
+            <!-- four -->
+            <div class="card results">
               <div
                 class="card-header"
                 id="headingFour"
@@ -210,9 +319,12 @@
                 <h5
                   class="mb-0 d-flex justify-content-between align-items-center"
                 >
-                  سياسة الإلغاء والاسترداد
-                  <i class="fa fa-caret-down arrow"></i>
+                  <div class="img-container">
+                    <img src="./images/setting.svg" alt="" />
+                  </div>
+                  الطلبات السابقة
                 </h5>
+                <i class="fa fa-caret-down arrow"></i>
               </div>
               <div
                 id="collapseFour"
@@ -221,7 +333,74 @@
                 data-parent="#membershipAccordion"
               >
                 <div class="card-body">
-                  <!-- أضف المحتوى هنا -->
+                  <ul>
+                    <li>
+                      <p>نوع الطلب</p>
+                      <span> استشارات </span>
+                    </li>
+                    <!--  -->
+                    <li>
+                      <p>التاريخ</p>
+                      <span> 1/1/2023 </span>
+                    </li>
+                    <!--  -->
+                    <li>
+                      <p>حالة الطلب</p>
+                      <span class="status"> تمت معالجة </span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <!-- five -->
+
+            <div class="card results">
+              <div
+                class="card-header"
+                id="headingFive"
+                data-toggle="collapse"
+                data-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                <h5
+                  class="mb-0 d-flex justify-content-between align-items-center"
+                >
+                  <div class="img-container">
+                    <img src="./images/setting.svg" alt="" />
+                  </div>
+                  الطلبات السابقة
+                </h5>
+                <i class="fa fa-caret-down arrow"></i>
+              </div>
+              <div
+                id="collapseFive"
+                class="collapse"
+                aria-labelledby="headingFive"
+                data-parent="#membershipAccordion"
+              >
+                <div class="card-body results">
+                  <ul>
+                    <li>
+                      <p>اسم المقياس</p>
+                      <span> التفكير الابتكاري </span>
+                    </li>
+                    <!--  -->
+                    <li>
+                      <p>التاريخ</p>
+                      <span> 1/1/2023 </span>
+                    </li>
+                    <!--  -->
+                    <li>
+                      <p>النتيجة</p>
+                      <span class="status"> 85% </span>
+                    </li>
+                  </ul>
+
+                  <div class="course-actions">
+                    <a href="" class="btn-action1"> عرض التفاصيل </a>
+                  </div>
                 </div>
               </div>
             </div>
