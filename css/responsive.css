@@ -36,7 +36,7 @@
     display: none;
   }
 
-  .sub-about-header{
+  .sub-about-header {
     height: 370px;
   }
   .sub-img-seo {
@@ -275,7 +275,24 @@
 }
 
 @media (max-width: 768px) {
-
+  .auth_pages .form-section {
+    display: flex;
+    margin: auto;
+    height: auto;
+    padding: 25px;
+    width: 100%;
+  }
+  .auth_pages {
+    min-height: auto;
+    overflow-x: hidden;
+  }
+  .auth_pages .logo-section .img-container {
+    width: 134px;
+    height: 134px;
+  }
+  .auth_pages .logo-section {
+    padding: 30px 0;
+  }
 
   .title-center p {
     width: 100%;
@@ -312,9 +329,9 @@
     flex-wrap: wrap;
     gap: 15px;
   }
-    .text-pages {
-        height: auto;
-    }
+  .text-pages {
+    height: auto;
+  }
   .element ul li a {
     font-size: 16px;
     height: auto;
@@ -336,90 +353,90 @@
     line-height: 33px;
   }
 
-
-
   /*  */
 
+  .profile-details-header .user-info p {
+    font-size: 20px;
+    font-family: "font_SemiBold";
+  }
 
+  .profile-details-header .user-info span {
+    font-size: 18px;
+    color: #797979;
+  }
 
-.profile-details-header .user-info p{
-font-size: 20px;
-font-family: "font_SemiBold";
+  .profile-details .accordion {
+    margin-bottom: 30px;
+  }
+
+  .profile-user-info img {
+    height: 90px;
+    width: 75px;
+  }
+
+  .profile-user-info .profile-info-items .item:nth-child(2):after {
+    content: none;
+  }
+
+  .profile-details .accordion .card-header h5 {
+    font-size: 18px;
+  }
+
+  .profile-info-header .header-actions a {
+    font-size: 14px;
+  }
+
+  .header-details .img-container,
+  .card-header .img-container {
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+  }
+
+  .profile-info-items {
+    gap: 5px;
+    row-gap: 10px;
+  }
+  .profile-info-items .item {
+    padding: 0 20px 0 30px;
+  }
+
+  .btn-action2,
+  .btn-action1 {
+    width: fit-content;
+    font-size: 16px;
+  }
+
+  .profile-details .accordion .results ul {
+    column-gap: 40px;
+  }
+
+  .profile-details .accordion .results ul li p {
+    font-size: 16px;
+  }
+
+  .profile-details .accordion .results ul li span {
+    font-size: 18px;
+  }
+
+  .profile-details .accordion .courses .card-body p {
+    font-size: 18px;
+  }
+
+  .profile-details .courses .course-details .date p {
+    font-size: 16px;
+  }
+
+  /* pay */
+
+  .pay-way-card {
+    height: 150px;
+  }
+
+  .pg-title {
+    font-size: 22px;
+  }
 }
-
-.profile-details-header .user-info span{
-font-size: 18px;
-color: #797979;
-}
-
-.profile-details .accordion{
-margin-bottom: 30px;
-}
-
-
-.profile-user-info img {
-  height: 90px;
-  width: 75px;
-}
-
-
-
-.profile-user-info .profile-info-items .item:nth-child(2):after{
-  content: none;
-}
-
-.profile-details .accordion .card-header h5{
-  font-size: 18px;
-}
-
-.profile-info-header .header-actions a{
-  font-size: 14px;
-}
-
-.header-details .img-container, .card-header .img-container{
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-}
-
-.profile-info-items{
-  gap: 5px;
-  row-gap: 10px;
-}
-.profile-info-items .item{
-  padding: 0 20px 0 30px;
-
-}
-
-.btn-action2,
-.btn-action1{
-  width: fit-content;
-  font-size: 16px;
-}
-
-.profile-details .accordion .results ul{
-  column-gap: 40px;
-}
-
-.profile-details .accordion .results ul li p{
-  font-size: 16px;
-}
-
-.profile-details .accordion .results ul li span{
-  font-size: 18px;
-}
-
-.profile-details .accordion .courses .card-body p{
-  font-size: 18px;
-}
-
-.profile-details .courses .course-details .date p{
-  
-  font-size: 16px;
-  
-}
-}
-
 
 @media (max-width: 576px) {
   div#map {
@@ -465,15 +482,14 @@ margin-bottom: 30px;
     height: auto;
   }
   .text-pages {
-
     margin: 20px auto 60px;
-}
+  }
 
-.text-header {
+  .text-header {
     color: #fff;
     margin: 20px 0;
     text-align: center;
-}
+  }
   .titel-pages h2 {
     font-size: 20px;
     padding: 0px 0;
@@ -488,25 +504,25 @@ margin-bottom: 30px;
   .text-header h1 {
     font-size: 17px;
     line-height: 30px;
-}
-.text-header h2 {
+  }
+  .text-header h2 {
     font-size: 13px;
     margin: 20px auto;
     line-height: 24px;
-}
-.sub-header {
+  }
+  .sub-header {
     min-height: 425px;
     height: auto;
-}
-.association-numbers {
+  }
+  .association-numbers {
     gap: 4px;
     flex-wrap: wrap;
-}
-.association-numbers button {
-justify-content: start;
+  }
+  .association-numbers button {
+    justify-content: start;
     gap: 6px;
     width: 100%;
-}
+  }
   .img-about img {
     width: 80%;
     height: 427px;
@@ -560,10 +576,10 @@ justify-content: start;
     margin: 2px 0;
     font-size: 13px;
   }
-.end-page a {
-        padding: 5px 0;
-        font-size: 13px;
-    }
+  .end-page a {
+    padding: 5px 0;
+    font-size: 13px;
+  }
 
   .sub-footer {
     margin: 34px 0;
@@ -591,86 +607,75 @@ justify-content: start;
 
   .detalis {
     padding: 8px 5px;
-}
-.sub-header {
+  }
+  .sub-header {
     min-height: 320px;
     height: auto;
     padding-bottom: 50px;
-}
-.sub-our-partners img {
+  }
+  .sub-our-partners img {
     padding: 20px;
     width: 66% !important;
     height: 117px;
-}
+  }
 
-
-.img-rate-us {
-   
+  .img-rate-us {
     width: 120px;
     height: 120px;
-}
+  }
 
-.titel-centerrrr p {
+  .titel-centerrrr p {
     width: 99%;
     font-size: 13px;
-}
-.accordion p {
+  }
+  .accordion p {
     font-size: 13px;
-   
-}
+  }
 
-.accordion h3 {
-   
+  .accordion h3 {
     font-size: 12px;
     font-family: "font_bold";
-  
-}
+  }
 
-.titel-start-page {
+  .titel-start-page {
     padding: 34px 26px;
+  }
+  .end-page a {
+    padding: 5px 0;
+    font-size: 13px;
+  }
 }
-.end-page a {
-        padding: 5px 0;
-        font-size: 13px;
-    }
 
-}
-
-
-@media (max-width : 475px){
-
-
-  .profile-details-header .user-info .img-container{
+@media (max-width: 475px) {
+  .profile-details-header .user-info .img-container {
     width: 80px;
-    height: 80px ;
+    height: 80px;
   }
-  
 
-.profile-details-header .user-info p{
-  font-size: 18px;
-  font-family: "font_SemiBold";
+  .profile-details-header .user-info p {
+    font-size: 18px;
+    font-family: "font_SemiBold";
   }
-  
-  .profile-details-header .user-info span{
-  font-size: 16px;
-  color: #797979;
+
+  .profile-details-header .user-info span {
+    font-size: 16px;
+    color: #797979;
   }
-  
+
   .profile-user-info img {
     height: 8%;
     width: 65px;
   }
-  
-  
-  .profile-details .accordion .card-header h5{
+
+  .profile-details .accordion .card-header h5 {
     font-size: 16px;
   }
-  
-  .profile-details .accordion .results ul li p{
+
+  .profile-details .accordion .results ul li p {
     font-size: 14px;
   }
-  
-  .profile-details .accordion .results ul li span{
+
+  .profile-details .accordion .results ul li span {
     font-size: 16px;
   }
 
@@ -678,12 +683,15 @@ justify-content: start;
     font-size: 16px;
   }
 
-
-
-  .profile-details .accordion .courses .card-body p{
+  .profile-details .accordion .courses .card-body p {
     font-size: 16px;
   }
 
+  .form-section .done p {
+    font-size: 18px;
+  }
 
-
+  .form-section .done {
+    width: 65%;
+  }
 }
