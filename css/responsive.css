@@ -24,6 +24,75 @@
 }
 
 @media (max-width: 992px) {
+  .project-card-container {
+    width: calc(100% / 2);
+  }
+
+  .prject-details-img-slider {
+    height: 550px;
+  }
+
+  .slick-list.draggable {
+    width: 100%;
+  }
+
+  .slider-for,
+  .slider-nav {
+    width: 100%;
+    float: none;
+    height: auto;
+  }
+
+  .slider-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    height: 25%;
+    width: 100%;
+
+    display: flex !important;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+  }
+
+  .slider-nav .slick-track {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  .slider-nav .slick-slide {
+    height: 100%;
+    margin: 0;
+    width: 25% !important; /* ربع الشاشة */
+    flex: 0 0 25%;
+  }
+
+  .slider-nav img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+
+  .slider-for {
+    height: 75%;
+  }
+
+  .slider-nav {
+    display: flex !important;
+    flex-wrap: nowrap;
+    justify-content: center;
+    overflow-x: auto;
+    padding: 10px 0;
+  }
+
+  .slider-nav .slick-slide {
+    margin: 0 5px;
+  }
+
+  /*  */
   .dropdowm-element {
     position: sticky;
     width: 100%;
@@ -275,6 +344,26 @@
 }
 
 @media (max-width: 768px) {
+  /*  */
+
+  .project-card-container {
+    width: 100%;
+  }
+
+  .project-card-container {
+    height: 300px;
+  }
+
+  .prject-details-img-slider {
+    height: 480px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    width: 24px;
+    height: 24px;
+  }
+  /*  */
   .auth_pages .form-section {
     display: flex;
     margin: auto;
@@ -646,7 +735,25 @@
   }
 }
 
+@media (max-width: 550px) {
+  .prject-details-img-slider {
+    height: 420px;
+  }
+}
+
 @media (max-width: 475px) {
+  /*  */
+
+  .prject-details-img-slider {
+    height: 380px;
+  }
+
+  .prject-details-img-slider {
+    padding-top: 70px;
+    margin-bottom: 25px;
+  }
+
+  /*  */
   .profile-details-header .user-info .img-container {
     width: 80px;
     height: 80px;
@@ -693,5 +800,11 @@
 
   .form-section .done {
     width: 65%;
+  }
+}
+
+@media (max-width: 375px) {
+  .prject-details-img-slider {
+    height: 320px;
   }
 }

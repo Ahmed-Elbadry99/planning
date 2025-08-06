@@ -1047,6 +1047,111 @@
   font-family: "font_SemiBold";
   color: #000;
 }
+
+/* services pop up */
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+.popup {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 80%;
+  text-align: right;
+  position: relative;
+}
+
+.popup-body {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-body form{
+
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  width: 100%;
+}
+
+.popup h2 {
+  text-align: center;
+  margin: 10px ;
+  width: 80%;
+}
+.popup .title {
+  font-weight: bold;
+  margin-bottom: 5px;
+  text-align: right;
+  width: 100%;
+}
+.popup a {
+  color: white;
+  text-decoration: underline;
+}
+.popup textarea {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  resize: vertical;
+  background-color: rgba(41, 127, 182, 0.08);
+  margin:  20px 0;
+  border-radius: 10px;
+}
+.popup .radios {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  justify-content: right;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.popup .btn-action1{
+  min-width: 200px;
+  width: auto;
+}
+
+.popup .btn-action1 img{
+  width: 22px;
+}
+.close-btn {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  background: #297fb6;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
 .row-gap {
   row-gap: 15px;
 }
@@ -1189,6 +1294,165 @@ select {
   background-color: #f8f9fa;
 }
 
+
+
+
+/* innovations details */
+
+
+.prject-details-img-slider{
+    direction: ltr;
+    margin-bottom: 50px;
+
+}
+
+
+
+.prject-details-img-slider{
+  margin-top: 100px;
+  height: 450px;
+
+}
+
+.slider-nav {
+    width: 20%;
+    float: left;
+    height: 100%;
+  }
+  .slider-for {
+    width: 75%;
+    float: right;
+    height: 100%;
+  }
+
+  
+  .slider-nav img, .slider-for img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-list.draggable,
+  .slick-track,
+  .slider-for img{
+    height: 100% !important;
+  }
+  .slider-nav .slick-slide {
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: 30%;
+  }
+  
+
+  .slider-nav .slick-slide img{
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+  /* خلي العناصر داخلها position relative عشان نتحكم في مكان السهم */
+.slider-container {
+    position: relative;
+  }
+  
+  /* السهمين فوق يمين */
+  .slick-prev, .slick-next {
+    position: absolute;
+    top: -40px;
+    z-index: 2;
+    background: none;
+    border: none;
+    font-size: 0; /* نخفي النص */
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+  }
+  
+  /* السهم السابق */
+  .slick-prev {
+    right: 80px; /* بعيد عن السهم التالي */
+  }
+  
+  /* السهم التالي */
+  .slick-next {
+    right: 10px;
+  }
+  
+  /* شكل الأسهم */
+  .slick-prev::before, .slick-next::before {
+    content: '';
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  
+  /* سهم لليسار */
+  .slick-prev::before {
+    background-image: url('../images/left-arrow.svg');
+  }
+  
+  /* سهم لليمين */
+  .slick-next::before {
+    background-image: url('../images/right-arrow.svg');
+  }
+  
+
+
+  
+  
+  .progect-details-description{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .description-header {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+  }
+
+  .description-header h2{
+    font-size: 26px;
+  }
+
+   .description-header p{
+    font-size: 22px;
+    color: #90C24E;
+    font-weight: 600;
+  }
+
+
+  .description-body{
+    display: flex;
+    flex-direction: column;
+    gap: 20px ;
+    align-items: center;
+  }
+
+  .description-body h3{
+    font-size: 20px;
+    font-weight: 600;
+    width: 100%;
+    text-align: start;
+  }
+
+  .description-body p{
+    font-size: 18px;
+    color: #4D4C4C;
+    line-height: 1.6;
+  }
+
+  .description-body a{
+    width: fit-content;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 30px;
+
+  }
+
 /* Card Number */
 .card-number {
   position: absolute;
@@ -1298,7 +1562,6 @@ select {
   transform: translateX(5px);
 }
 
-
 .order-number {
   background: #3498db;
   color: white;
@@ -1321,19 +1584,19 @@ select {
 }
 
 .order-controls button {
-    background: none;
-    border: none;
-    font-size: 16px;
-    cursor: pointer;
-    margin: 0 2px;
-    padding:0 1px ;
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 2px;
+  padding: 0 1px;
 }
 .order-controls button:disabled {
-    opacity: 0.4;
-    cursor: default;
+  opacity: 0.4;
+  cursor: default;
 }
 
-.order-controls button img{
+.order-controls button img {
   height: 20px;
 }
 
@@ -1488,9 +1751,8 @@ select {
   resize: none;
 }
 
-
-.assessment-container{
-  margin: 40px 0
+.assessment-container {
+  margin: 40px 0;
 }
 
 .assessment-header {
@@ -1692,6 +1954,10 @@ select {
   padding-right: 25px;
 }
 
+
+
+
+
 @media (max-width: 768px) {
   h1 {
     font-size: 2rem;
@@ -1833,7 +2099,7 @@ select {
     font-size: 18px;
   }
 
-  .scales-item ul li{
+  .scales-item ul li {
     padding: 10px;
   }
 }
