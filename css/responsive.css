@@ -733,12 +733,39 @@
     padding: 5px 0;
     font-size: 13px;
   }
+
+
+
 }
 
 @media (max-width: 550px) {
   .prject-details-img-slider {
     height: 420px;
   }
+
+
+  .ads-card {
+    min-height: 260px;
+
+  }
+
+  .ads-body h3{
+    font-size: 18px;
+  }
+
+  .offer p {
+    font-size: 20px;
+  }
+
+
+  .offer span {
+    font-size: 16px;
+}
+
+.location p, .date p {
+    font-size: 16px;
+    color: white;
+}
 }
 
 @media (max-width: 475px) {
@@ -801,6 +828,42 @@
   .form-section .done {
     width: 65%;
   }
+
+
+
+  
+  .ads-card {
+    min-height: 220px;
+
+  }
+
+  .ads-body {
+    padding: 0px 5px 0 0 ;
+    gap: 5px;
+  }
+
+  .ads-body h3{
+    font-size: 18px;
+  }
+
+  .offer{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  .offer p {
+    font-size: 18px;
+  }
+
+
+  .offer span {
+    font-size: 16px;
+}
+
+.location p, .date p {
+    font-size: 16px;
+    color: white;
+}
 }
 
 @media (max-width: 375px) {
