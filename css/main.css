@@ -525,6 +525,7 @@
   padding: 15px 0;
 }
 
+.scales-item::after,
 .profile-details-header::after {
   width: 100%;
   height: 1px;
@@ -579,6 +580,10 @@
 .profile-details .accordion .card-body.results ul {
   display: flex;
   gap: 20px;
+}
+
+.scales-item ul {
+  margin: 0;
 }
 
 .profile-user-info {
@@ -713,7 +718,7 @@
   gap: 15px;
 }
 
-.scales-item ,
+.scales-item,
 .profile-details .accordion .courses .card-body,
 .profile-details .accordion .results .card-body {
   display: flex;
@@ -722,6 +727,11 @@
   padding: 10px 25px;
   flex-wrap: wrap;
   row-gap: 20px;
+}
+
+.scales-item {
+  position: relative;
+  padding: 10px;
 }
 
 .profile-details .courses .course-info,
@@ -777,7 +787,6 @@
   gap: 10px;
 }
 
-
 .scales-item ul li::after,
 .profile-details .accordion .results ul li::after {
   position: absolute;
@@ -790,14 +799,13 @@
   background-color: #8a8a8a;
 }
 
-
-.scales-item ul li:first-child::after ,
+.scales-item ul li:first-child::after,
 .profile-details .accordion .results ul li:first-child::after {
   border: none;
   content: none;
 }
 
-.scales-item ul li p ,
+.scales-item ul li p,
 .profile-details .accordion .results ul li p {
   font-size: 18px;
   color: #797979;
@@ -817,8 +825,7 @@
   padding: 60px 25px;
 }
 
-.volunteer-request .main-container .avatar-container{
-
+.volunteer-request .main-container .avatar-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -841,7 +848,7 @@
   border-radius: 50%;
   position: absolute;
   bottom: -15px;
-  left : 5%;
+  left: 5%;
 }
 
 /* auth_pages */
@@ -1001,15 +1008,11 @@
   object-fit: contain;
 }
 
-
-
 /* requset-container */
 
 .requset-container.session p {
-
   font-size: 18px;
   font-weight: 600;
-
 }
 
 /* start style by me gomaa  :> =======-
@@ -1466,10 +1469,9 @@ select {
   resize: none;
 }
 
-.assessment-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 40px 20px;
+
+.assessment-container{
+  margin: 40px 0
 }
 
 .assessment-header {
@@ -1479,8 +1481,8 @@ select {
 
 .assessment-header h1 {
   font-size: 2.5rem;
-  font-weight: bold;
-  color: #297fb6;
+  font-weight: 500;
+  color: #000;
   margin-bottom: 20px;
 }
 
@@ -1500,17 +1502,16 @@ select {
 
 .scales-section {
   width: 100%;
-  
 
   padding: 30px;
 }
 
 .scales-section h2 {
   font-size: 1.5rem;
-  font-weight: bold;
-  color: #297fb6;
+  font-weight: 500;
+  color: #000;
   margin-bottom: 25px;
-  text-align: center;
+  text-align: start;
 }
 
 .scales-table {
