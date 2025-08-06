@@ -1169,7 +1169,7 @@ select {
   overflow: hidden;
   transition: all 0.3s ease;
   position: relative;
-  cursor: grab;
+  cursor: pointer;
   border: 2px solid transparent;
 }
 
@@ -1284,6 +1284,7 @@ select {
 .order-item {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding: 15px;
   margin-bottom: 10px;
   background: #f8f9fa;
@@ -1296,6 +1297,7 @@ select {
   background: #e9ecef;
   transform: translateX(5px);
 }
+
 
 .order-number {
   background: #3498db;
@@ -1316,6 +1318,23 @@ select {
   font-weight: 500;
   font-size: 0.95rem;
   line-height: 1.4;
+}
+
+.order-controls button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 2px;
+    padding:0 1px ;
+}
+.order-controls button:disabled {
+    opacity: 0.4;
+    cursor: default;
+}
+
+.order-controls button img{
+  height: 20px;
 }
 
 /* Confirm Button */
@@ -1812,5 +1831,9 @@ select {
     width: 40px;
     height: 40px;
     font-size: 18px;
+  }
+
+  .scales-item ul li{
+    padding: 10px;
   }
 }
