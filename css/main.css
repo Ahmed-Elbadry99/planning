@@ -232,6 +232,10 @@
 .Types-memberships {
   padding: 50px 0;
 }
+.Types-memberships .row {
+  row-gap: 20px;
+}
+
 .Type-membership-card {
   background-color: rgba(41, 127, 182, 0.1);
   color: #297fb6;
