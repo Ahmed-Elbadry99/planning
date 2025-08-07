@@ -50,6 +50,11 @@
 .ads-card .row {
   height: 100%;
 }
+
+.member-row {
+  row-gap: 20px;
+}
+
 .ads-card .col-5 {
   position: relative;
   padding: 0 !important;
@@ -92,7 +97,7 @@
 }
 
 .ads-body {
-  padding: 20px 10px 0 0; 
+  padding: 20px 10px 0 0;
   color: white;
   display: flex;
   flex-direction: column;
@@ -106,8 +111,8 @@
   font-weight: 600;
   color: #bfff6c;
 }
- .ads-body .btn-action1{
-  background-color: #87BD41 ;
+.ads-body .btn-action1 {
+  background-color: #87bd41;
 }
 
 .offer span {
