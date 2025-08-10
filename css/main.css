@@ -1185,7 +1185,7 @@
 }
 
 .certificate-body p{
-  font-size:22px;
+  font-size:18px;
   font-family: "Tajawa";
 }
 
@@ -1215,8 +1215,13 @@
 
 .certificate-end  span {
   font-family: "Tajawa";
-  font-size: 20px;
+  font-size: 16px;
   font-weight: bold;
+}
+
+
+.certificate-end hr{
+  margin:  0;
 }
 .certificate .name {
   /* position: absolute;
